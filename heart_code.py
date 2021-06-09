@@ -66,3 +66,7 @@ res_mapping = {0:'No', 1:'yes'}
 a = sc.transform(np.array(vals).reshape(1, -1))
 res = classifier.predict(a)
 print(res_mapping[res[0]])
+
+
+# 1, 3, 5 set -1 odd
+# 2, 4 set 2 even
